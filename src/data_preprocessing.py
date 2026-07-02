@@ -10,9 +10,19 @@ import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-DATA_PATH = os.path.join(BASE_DIR, "dataset", "car data.csv")
+DATA_PATH = os.path.join(
+    BASE_DIR,
+    "dataset",
+    "raw",
+    "car data.csv"
+)
 
-OUTPUT_PATH = os.path.join(BASE_DIR, "dataset", "cleaned_car_data.csv")
+OUTPUT_PATH = os.path.join(
+    BASE_DIR,
+    "dataset",
+    "processed",
+    "cleaned_car_data.csv"
+)
 
 
 # -------------------------------
