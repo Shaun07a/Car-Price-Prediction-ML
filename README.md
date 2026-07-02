@@ -1,4 +1,4 @@
-# Car Price Prediction ML
+# Car Price Prediction using Machine Learning
 
 A Machine Learning web application that predicts the resale price of used cars based on various vehicle attributes.
 
