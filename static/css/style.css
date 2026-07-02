@@ -1,0 +1,74 @@
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+
+.main-card{
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(18px);
+    border:none;
+    border-radius:20px;
+    color:white;
+}
+
+h1{
+    font-weight:700;
+    color:white;
+}
+
+.text-muted{
+    color:#d1d5db !important;
+}
+
+label{
+    color:#f8fafc;
+    font-weight:500;
+    margin-bottom:6px;
+}
+
+.form-control,
+.form-select{
+    border-radius:12px;
+    height:50px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow:0 0 10px rgba(59,130,246,.5);
+}
+
+.btn{
+    border-radius:12px;
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    transform:translateY(-2px);
+}
+
+.btn-outline-light:hover{
+    transform:translateY(-2px);
+}
+
+.prediction-card{
+    margin-top:40px;
+    background:rgba(255,255,255,.12);
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+}
+
+.prediction-card h4{
+    color:#e2e8f0;
+}
+
+.prediction-card h2{
+    font-size:42px;
+    font-weight:700;
+    color:#38bdf8;
+}
