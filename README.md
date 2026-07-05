@@ -9,9 +9,7 @@ An end-to-end Machine Learning web application that predicts the resale price of
 **Render Deployment:**  
 https://car-price-prediction-ml-nmx9.onrender.com
 
-Example:
 
-https://car-price-prediction-ml.onrender.com
 
 ---
 
