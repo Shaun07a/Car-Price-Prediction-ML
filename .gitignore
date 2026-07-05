@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+
+dataset/processed/
+
+.vscode/
+
+.ipynb_checkpoints/
+
+.DS_Store

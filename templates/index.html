@@ -40,14 +40,28 @@
 
                     <!-- Heading -->
 
-                    <h1 class="text-center mb-3">
-                        <i class="bi bi-car-front-fill"></i>
-                        Car Price Prediction
-                    </h1>
+                   <div class="text-center mb-5">
 
-                    <p class="text-center text-muted mb-5">
-                        Predict the resale value of your vehicle using Machine Learning
-                    </p>
+                        <span class="badge bg-warning text-dark px-3 py-2 mb-3">
+                            AI Powered Vehicle Valuation
+                        </span>
+
+                        <h1 class="display-5 fw-bold">
+                            <i class="bi bi-car-front-fill"></i>
+                            Car Price Predictor
+                        </h1>
+
+                        <p class="lead text-light opacity-75">
+                            Get an instant estimate of your vehicle's resale value using a
+                            Machine Learning model trained on real-world car sales data.
+                        </p>
+
+                    </div>
+
+                    <h4 class="mb-4">
+                        <i class="bi bi-list-check"></i>
+                        Vehicle Details
+                    </h4>
 
                     <!-- Form -->
 
@@ -220,7 +234,9 @@
 
                     <div class="prediction-card">
 
-                        <h4>
+                        <i class="bi bi-check-circle-fill display-4 text-success"></i>
+
+                        <h4 class="mt-3">
                             Estimated Selling Price
                         </h4>
 
@@ -228,22 +244,33 @@
                             ₹ {{ prediction }} Lakhs
                         </h2>
 
-                        <p class="mt-3 mb-0">
-                            This prediction is generated using a trained
-                            Random Forest Machine Learning model.
+                        <hr>
+
+                        <p>
+                            Generated using a trained Random Forest Regression model.
                         </p>
 
                     </div>
 
                     {% endif %}
 
-                    <hr class="my-5">
+                    
 
                     <!-- Footer -->
 
-                    <p class="text-center text-muted mb-0">
-                        Built with Flask • Scikit-learn • Bootstrap 5
-                    </p>
+                    <hr class="my-5">
+
+                    <div class="text-center">
+
+                        <p class="mb-1">
+                            Developed by <strong>Shaun Joseph</strong>
+                        </p>
+
+                        <small class="text-muted">
+                            Flask • Scikit-learn • Bootstrap 5 • Random Forest Regression
+                        </small>
+
+                    </div>
 
                 </div>
 
